@@ -41,3 +41,5 @@ con la contraseña: 123456
 
 ---O----
 o modificar el usuario y contraseña por los deseados en el archivo: conexion.js de la carpeta: config. 
+------------------------------------------------------------------------------------------------------
+ULTIMO PASO: escribir en terminal: npm start.
