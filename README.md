@@ -25,15 +25,16 @@ luego creamos una tabla en la base de datos carrosbd:
 
 /
 CREATE TABLE carros (
-	  id int(200) AUTO_INCREMENT,
-    marca varchar(100) NOT NULL,
-    modelo varchar(100) NOT NULL,
-    año int(4) NOT NULL,
-    placa varchar(10) NOT NULL,
-    estado varchar(25) NOT NULL,
-    PRIMARY KEY (id)
+id int(200) AUTO_INCREMENT,
+marca varchar(100) NOT NULL,
+modelo varchar(100) NOT NULL,
+año int(4) NOT NULL,
+placa varchar(10) NOT NULL,
+estado varchar(25) NOT NULL,
+PRIMARY KEY (id)
  );
 /
+
 ----IMPORTANTE------
 Crear usuario llamado: userprueba
 con la contraseña: 123456
