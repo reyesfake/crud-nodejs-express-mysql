@@ -10,6 +10,8 @@ npm install body-parser ,
 
 npm install nodemon
 
+crear base de datos:
+
 /
 CREATE DATABASE carrosbd;
 /
