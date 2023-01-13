@@ -16,7 +16,7 @@ dentro de xampp
 Darle click a: admin de Mysql
 
 Una vez adentro de phpMyadmin creamos la base de datos: 
-
+-------------------------------------------------------------------------------------
 /
 CREATE DATABASE carrosbd;
 /
@@ -34,12 +34,12 @@ estado varchar(25) NOT NULL,
 PRIMARY KEY (id)
  );
 /
-
+-----------------------------------------------------------------------------------------------------------
 ----IMPORTANTE------
-Crear usuario llamado: userprueba
+Crear usuario en la base de datos llamado: userprueba
 con la contraseña: 123456
 
----O----
+O
 o modificar el usuario y contraseña por los deseados en el archivo: conexion.js de la carpeta: config. 
 ------------------------------------------------------------------------------------------------------
 ULTIMO PASO: escribir en terminal: npm start.
