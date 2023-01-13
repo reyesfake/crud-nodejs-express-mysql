@@ -9,34 +9,34 @@
         <p class="card-text">Modifique los datos que requiera</p>
 
 <form method="post" action="../actualizar">
-<input type="hidden" name="id" value="<%=libro.id%> ">
+<input type="hidden" name="id" value="<%=carro.id%> ">
     <div class="form-group">
         <label for="my-input">Marca.</label>
-        <input id="my-input" value="<%=libro.marca%>" class="form-control" type="text" name="marca">
+        <input id="my-input" value="<%=carro.marca%>" class="form-control" type="text" name="marca">
     </div>
 
     <div class="form-group">
         <label for="my-input">Modelo.</label>
-        <input id="my-input" value="<%=libro.modelo%> " class="form-control" type="text" name="modelo">
+        <input id="my-input" value="<%=carro.modelo%> " class="form-control" type="text" name="modelo">
     </div>
 
     <div class="form-group">
         <label for="my-input">Año.</label>
-        <input id="my-input" value="<%=libro.año%> " class="form-control" type="number" name="año">
+        <input id="my-input" value="<%=carro.año%> " class="form-control" type="number" name="año">
     </div>
 
     <div class="form-group">
         <label for="my-input">Placa (ej: P-JPR123).</label>
-        <input id="my-input" value="<%=libro.placa%> " class="form-control" type="text" name="placa">
+        <input id="my-input" value="<%=carro.placa%> " class="form-control" type="text" name="placa">
     </div>
 
     <div class="form-group">
         <label for="my-input">Estado (Perfecto, daño menor, reparacion urgente, descarte).</label>
-        <input id="my-input" value="<%=libro.estado%> " class="form-control" type="text" name="estado">
+        <input id="my-input" value="<%=carro.estado%> " class="form-control" type="text" name="estado">
     </div>
     
     <button class="btn btn-success" type="submit">Actualizar</button>
-    <a class="btn btn-primary" href="/libros">Cancelar</a>
+    <a class="btn btn-primary" href="/carros">Cancelar</a>
 
 </form>
 
